@@ -5,35 +5,12 @@
  */
 public class Main {
 
-  //
-  // Fields
-  //
+    public static void main(String[] args) {
 
-  
-  //
-  // Constructors
-  //
-  public Main () { };
-  
-  //
-  // Methods
-  //
+        Auto auto = new Auto("Toyota");
 
+        Persona persona = new Persona("Adolfo", auto);
 
-  //
-  // Accessor methods
-  //
-
-  //
-  // Other methods
-  //
-
-  /**
-   * @return       String
-   */
-  public String main()
-  {
-  }
-
-
+        persona.mostrarAuto();
+    }
 }

@@ -7,52 +7,13 @@ import java.util.*;
  */
 public class Auto {
 
-  //
-  // Fields
-  //
+    private String marca;
 
-  private String marca;
-  
-  //
-  // Constructors
-  //
-  public Auto () { };
-  
-  //
-  // Methods
-  //
+    public Auto(String marca) {
+        this.marca = marca;
+    }
 
-
-  //
-  // Accessor methods
-  //
-
-  /**
-   * Set the value of marca
-   * @param newVar the new value of marca
-   */
-  public void setMarca (String newVar) {
-    marca = newVar;
-  }
-
-  /**
-   * Get the value of marca
-   * @return the value of marca
-   */
-  public String getMarca () {
-    return marca;
-  }
-
-  //
-  // Other methods
-  //
-
-  /**
-   * @return       String
-   */
-  public String getMarca()
-  {
-  }
-
-
+    public String getMarca() {
+        return marca;
+    }
 }
